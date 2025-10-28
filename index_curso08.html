@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+
+
+</head>
+<body>
+    <i> Teste - rua 55</i><br> <!-- sem semanatica  não use -->
+    <em> Teste - rua 55</em> <!-- com semanatica -->
+    <address> Teste - rua 55</address>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo nam vitae saepe nisi, temporibus eos voluptatibus doloremque quam numquam aspernatur quibusdam officia, architecto iure maxime inventore, ut odio est dicta! <abbr title="Victor Hugo Felipe Moreira" style="text-decoration: underline;"> -VHFM </abbr></p>
+
+    <b> Teste </b><br>
+    <strong> Teste semantico </strong><br>
+
+    <mark> esse eu não conheço </mark><br>
+    <span style="background-color: yellow;"> esse eu conheço </span>
+    <p>x<sup>2</sup> </p>
+    <p> H<sub>2</sub></p>
+
+    <code>
+    <pre>
+    @bot.command()
+    async def tilapia(ctx: commands.Context):
+        imagem = mandar_img("tilapia_dando.png")
+        await ctx.send(f"O Tilapia está ocupado dando o cu")
+        await ctx.send(file=imagem)
+    </pre>
+    </code>
+
+    <h2> Citação simples </h2>
+    <q>Citação</q>
+    <h2> Citação composta</h2>
+    <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consequuntur quasi quibusdam, expedita doloremque nemo natus officia accusamus nisi vitae! Incidunt expedita consectetur odit provident, eius ipsum. Amet, unde illum.</blockquote>
+    <bdo dir="rtl">
+        ta invertido"Socorram-me, subi no ônibus em Marrocos"
+    </bdo>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@charset "UTF-8"; /* Regra */
+
+body {
+    background-color: #D6D5C9;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {color: #0A100D}
+h2 {color:#A22C29}
+a {color: #902923; text-decoration: none;}

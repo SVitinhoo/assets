@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div#d1 {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        text-align: center;
+        background-color: lightblue;
+    }
+    div#d1:hover{
+        background-color: yellow;
+    }
+
+    span > p {
+        display: none;
+    }
+
+    span:hover > p {
+        display: block;
+        background-color: red;
+        color: white;
+    }
+
+    span:hover {
+        color: red;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:link {
+        color: red
+    }
+    a:visited {
+        color: darkred;
+    }
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    a:active {
+        color: rgb(139, 139, 0);
+    }
+
+    a::after {
+        content: "⇦";
+        color: #9f9f9f;
+        font-size: 11px;
+        text-decoration: none;
+    }
+    a::before {
+        content:' ⇨';
+        color: #9f9f9f;
+        font-size: 11px;
+        text-decoration: none;
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <div id="d1"> 01 </div>
+    <div id="d1"> 02 </div>
+    <div id="d1"> 03 </div>
+
+    <br>
+    <span> Passe o dedo aqui
+    <p> texto escondido</p>
+    </span>
+
+    <ul type="circle">
+    <li><a href="https://www.cursoemvideo.com/minha-conta/" target="_blank">Visitado</a></li>
+    <li><a href="#https://www.google.com" target="_blank">Site não visitado</a></li> 
+    </ul>
+
+</body>
+</html>

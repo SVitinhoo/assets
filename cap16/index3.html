@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <style>
+        h1 {
+            margin: 30px;
+            border: 10px solid black;
+            padding: 20px;
+            outline: 5px solid green;
+        }
+        h1.custom {
+            border-image-source: url('borda.png');
+            border-image-slice: 25;
+            border-image-repeat: repeat; /* "stretch" tbm tem é todo esticado*/
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1 class="custom"> Teste </h1>
+    <h1> teste2</h1>
+</body>
+</html>

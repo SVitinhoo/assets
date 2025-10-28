@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+
+    <style>
+        header > h1 {
+            font-size: 40px;
+        }
+
+
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav {
+            border-radius: 5px;
+            background-color: rgb(85, 85, 85);
+            padding: 3px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.502);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav a:hover{
+            color: black;
+            background-color: white;
+        }
+
+        nav a:active{
+            background-color: yellow;
+        }
+
+
+        main {
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            margin-bottom: 10px;
+        }
+        section > h2 {
+            text-align: center;
+            border-radius: 5px;
+            color: yellow;
+            background-color: black;
+            font-size: 25px;
+        }
+
+        article > h3 {
+            padding-left: 15px;
+            font-size: 25px;
+        }
+
+        article {
+            border-radius: 10px;
+            background-color: lightgray;
+            padding-bottom: 25px;
+        }
+
+        article > aside {
+            text-align: right;
+            border-radius: 4px;
+            background-color: rgb(152, 151, 151);
+            padding-right: 75px;
+        }
+        article > h3+p::before {
+            content: " - ";
+
+        }
+
+        footer {
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1> Meu site</h1>
+        <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes do Brasil</h2>
+            <article>
+                <h3> Noticias 1 </h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim?</p>
+                <aside> Artigo escrito por mim</aside>    
+            </article>
+            <article>
+                <h3> Noticias 2</h3>
+                <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim?Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim?</p>
+                <aside> Artigo escrito por mim</aside>
+            </article>   
+        </section>
+        <section id="noticias">
+            <h2>Noticias do Brasil</h2>
+            <article>
+                <h3> Noticias 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repell Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim?endus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim?</p>
+                <aside> Artigo escrito por mim</aside>    
+            </article>
+            <article>
+                <h3> Noticias 2</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis non consequuntur nobis, culpa repellendus nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim?nihil eos quis maxime neque cupiditate earum, a corrupti officiis hic, cumque ea sint aspernatur enim?</p>
+                <aside> Artigo escrito por mim</aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p> Desenvolvido por mim</p>
+    </footer>
+
+
+
+</body>
+</html>

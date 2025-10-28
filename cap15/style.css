@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(183, 244, 199);
+}
+
+#principal {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    background-color: #316f4b;  
+}
+
+h2.tema{
+    font-size: 2.2rem;
+    color: rgb(6, 50, 1);
+    background-color: rgb(176, 176, 117);
+}
+h3{font-size: 1.8rem;}
+p {font-size: 1.3rem;}
+
+
+h3.basico {
+    color: rgb(60, 138, 60);
+}
+h3.intermediario{
+    color: rgb(150, 150, 58);
+}
+h3.avancado{
+    color: rgb(145, 61, 61);
+}
+
+.mark{
+    color: #E0635A;
+}
